@@ -19,27 +19,24 @@
             <ion-label>{{ t('language') }}</ion-label>
           </ion-item>
           <div class="ion-padding" slot="content">
-            <p>
-              // TODO: Implement language switcher
-            </p>
-            <ion-radio-group value="de">
+            <ion-radio-group value="de" (ionChange)="languageChanged($event)">
               <ion-item lines="full">
                 <ion-radio value="de" justify="space-between">{{ t('language.german') }}</ion-radio>
               </ion-item>
               <ion-item lines="full">
-                <ion-radio disabled value="fr" justify="space-between"
+                <ion-radio value="fr" justify="space-between"
                 >{{ t('language.french') }}
                 </ion-radio
                 >
               </ion-item>
               <ion-item lines="full">
-                <ion-radio disabled value="it" justify="space-between"
+                <ion-radio value="it" justify="space-between"
                 >{{ t('language.italian') }}
                 </ion-radio
                 >
               </ion-item>
               <ion-item lines="full">
-                <ion-radio disabled value="en" justify="space-between"
+                <ion-radio value="en" justify="space-between"
                 >{{ t('language.english') }}
                 </ion-radio
                 >

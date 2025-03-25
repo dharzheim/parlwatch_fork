@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Browser } from '@capacitor/browser';
 import { IonicModule } from '@ionic/angular';
-import { TranslocoDirective } from '@jsverse/transloco';
+import { TranslocoDirective, TranslocoService } from '@jsverse/transloco';
 
 @Component({
   selector: 'app-settings-overview',
@@ -11,12 +11,16 @@ import { TranslocoDirective } from '@jsverse/transloco';
   imports: [IonicModule, TranslocoDirective]
 })
 export class SettingsOverviewPage {
-  constructor() {}
+  constructor(private translocoService: TranslocoService) {}
 
   surveyClicked() {
     Browser.open({
       url: 'https://forms.gle/pesghE51E89XnNXa7',
       presentationStyle: 'popover'
     });
+  }
+
+  languageChanged(event: any) {
+    this.translocoService.setActiveLang(event.target.value);
   }
 }
