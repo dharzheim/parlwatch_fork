@@ -13,7 +13,8 @@
     "lint:fix": "ng lint --fix",
     "prettier:fix": "npx prettier --write \"src/**/*.ts\"",
     "i18n:extract": "transloco-keys-manager extract --remove-extra-keys",
-    "i18n:find": "transloco-keys-manager find"
+    "i18n:find": "transloco-keys-manager find",
+    "i18n:translate": "node translate.ts"
   },
   "private": true,
   "dependencies": {
@@ -56,6 +57,7 @@
     "@capacitor/cli": "^6.0.0",
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@google-cloud/translate": "^9.0.1",
     "@ionic/angular-toolkit": "^12.1.1",
     "@jsverse/transloco-keys-manager": "^5.1.0",
     "@types/jasmine": "~5.1.4",

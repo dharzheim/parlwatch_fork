@@ -42,7 +42,7 @@
   "layout.settings": "{{settings.title}}",
   "councilMember.list.title": "Ratsmitglieder",
   "councilMember.list.showInactiveMembers": "Inaktive anzeigen",
-  "councilMember.list.filter": "Missing value for 'councilMember.list.filter'",
+  "councilMember.list.filter": "Ratsmitglieder filtern",
   "common.close": "Schliessen",
   "councilMember.detail.back": "{{common.back}}",
   "councilMember.detail.title": "Ratsmitglied",
