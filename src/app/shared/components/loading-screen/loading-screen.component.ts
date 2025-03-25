@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { concat, interval, tap, timer } from 'rxjs';
 import { IonicModule } from '@ionic/angular';
+import { TranslocoDirective } from '@jsverse/transloco';
 
 @UntilDestroy()
 @Component({
@@ -9,7 +10,7 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: './loading-screen.component.html',
   styleUrls: ['./loading-screen.component.scss'],
   standalone: true,
-  imports: [IonicModule]
+  imports: [IonicModule, TranslocoDirective]
 })
 export class LoadingScreenComponent implements OnInit {
   currentFact: string;
