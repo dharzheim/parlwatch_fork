@@ -17,6 +17,9 @@
         <ion-accordion value="first">
           <ion-item slot="header">
             <ion-label>{{ t('language') }}</ion-label>
+
+            <p>{{ t('test.withMultipleVariables', {variable1: '1 Variable' }) }}</p>
+            <p>{{ t('test.anotherTest') }}</p>
           </ion-item>
           <div class="ion-padding" slot="content">
             <ion-radio-group value="de" (ionChange)="languageChanged($event)">

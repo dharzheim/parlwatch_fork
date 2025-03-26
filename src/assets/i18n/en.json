@@ -16,6 +16,8 @@
   "shared.errorScreen.retry.button": "Try again",
   "settings.title": "Settings",
   "settings.language": "Language",
+  "settings.test.withMultipleVariables": "Test text with {{variable1}} and a reference to {{settings.title}}",
+  "settings.test.anotherTest": "Missing value for 'settings.test.anotherTest'",
   "settings.language.german": "German",
   "settings.language.french": "French",
   "settings.language.italian": "Italian",

@@ -16,6 +16,8 @@
   "shared.errorScreen.retry.button": "Essayer à nouveau",
   "settings.title": "Paramètres",
   "settings.language": "Langue",
+  "settings.test.withMultipleVariables": "Missing value for 'settings.test.withMultipleVariables'",
+  "settings.test.anotherTest": "Missing value for 'settings.test.anotherTest'",
   "settings.language.german": "Allemand",
   "settings.language.french": "Français",
   "settings.language.italian": "Italien",
