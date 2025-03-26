@@ -15,6 +15,7 @@
   "shared.errorScreen.retryLater": "Malheureusement, votre demande n'a pas pu être traitée. Veuillez réessayer plus tard.",
   "shared.errorScreen.retry.button": "Essayer à nouveau",
   "settings.title": "Paramètres",
+  "settings.test.withMultipleVariables": "Missing value for 'settings.test.withMultipleVariables'",
   "settings.language": "Langue",
   "settings.language.german": "Allemand",
   "settings.language.french": "Français",

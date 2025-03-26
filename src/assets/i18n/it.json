@@ -15,6 +15,7 @@
   "shared.errorScreen.retryLater": "Purtroppo la tua richiesta non è stata elaborata. Riprova più tardi.",
   "shared.errorScreen.retry.button": "Riprova",
   "settings.title": "Impostazioni",
+  "settings.test.withMultipleVariables": "Missing value for 'settings.test.withMultipleVariables'",
   "settings.language": "Lingua",
   "settings.language.german": "Tedesco",
   "settings.language.french": "Francese",

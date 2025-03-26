@@ -15,6 +15,7 @@
   "shared.errorScreen.retryLater": "Unfortunately, your request could not be processed. Please try again later.",
   "shared.errorScreen.retry.button": "Try again",
   "settings.title": "Settings",
+  "settings.test.withMultipleVariables": "Missing value for 'settings.test.withMultipleVariables'",
   "settings.language": "Language",
   "settings.language.german": "German",
   "settings.language.french": "French",
