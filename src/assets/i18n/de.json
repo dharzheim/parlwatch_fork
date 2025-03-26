@@ -17,7 +17,7 @@
   "settings.title": "Einstellungen",
   "settings.language": "Sprache",
   "settings.test.withMultipleVariables": "Test text mit {{variable1}} und einer Referenz zu {{settings.title}}",
-  "settings.test.anotherTest": "Missing value for 'settings.test.anotherTest'",
+  "settings.test.anotherTest": "Ein weiterer Test",
   "settings.language.german": "Deutsch",
   "settings.language.french": "Französisch",
   "settings.language.italian": "Italienisch",
